@@ -1,0 +1,49 @@
+body {
+    background-image: url('src/bg.jpg');
+    opacity: 20px;
+}
+
+.gambar {
+    width: 80%;
+}
+
+.border-1 {
+    width: 80%;
+}
+
+.boxsatu {
+    z-index: 1;
+    left: 0px;
+    top: 0px;
+}
+
+.boxdua {
+    z-index: 2;
+    left: 255px;
+    top: 530px;
+    width: 50px;
+    border-radius: 10px;
+    color: white;
+}
+
+.stepper {
+    .line {
+      width: 1px;
+      height: 20px;
+      border: 1px dotted rgb(0, 117, 252) !important;
+    }
+  }
+
+.vertical-line {
+    border-left: 2px dotted rgb(0, 117, 252) !important;
+    height: 30px;
+}
+
+.arrow-down {
+    border: solid rgb(0, 117, 252);
+    border-width: 0 2px 2px 0;
+    display: inline-block;
+    padding: 3px;
+    transform: rotate(45deg);
+}
+  
